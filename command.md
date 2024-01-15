@@ -46,5 +46,20 @@ $ git checkout -
 
 ```
 
+## config 관련 명령어
+```shell
+
+## 전체 config 리스트 보기
+$ git config --global --list
+
+## config 설정(name, email)
+$ git config --global user.name "name"
+$ git config --global user.email "email"
+
+## credential 정보 저장
+$ git config credential.helper store
+
+```
+
 ### log 확인
 - git log
